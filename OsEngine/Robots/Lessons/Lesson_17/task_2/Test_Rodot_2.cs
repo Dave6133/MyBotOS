@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OsEngine.Robots.Lessons.Lesson_17.task_2
 {
-    [Bot(nameof(task_2))]//Добавляет робота в OS
+    [Bot(nameof(Test_Rodot_2))]//Добавляет робота в OS
     public class Test_Rodot_2 : BotPanel
     {
         public int Lot;

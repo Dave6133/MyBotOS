@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OsEngine.Robots.Lessons.Lesson_17.task_1
 {
-    [Bot(nameof(task_1))]
+    [Bot(nameof(Test_Rodot_1))]
     public class Test_Rodot_1 : BotPanel
     {
         
