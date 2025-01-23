@@ -350,6 +350,11 @@ namespace OsEngine.Entity
         /// Event: parameter state changed
         /// </summary>
         public event Action ValueChange;
+
+        public static explicit operator StrategyParameterInt(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     /// <summary>

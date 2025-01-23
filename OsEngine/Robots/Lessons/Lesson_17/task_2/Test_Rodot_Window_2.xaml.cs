@@ -12,28 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace OsEngine.Robots.MyRobots
+namespace OsEngine.Robots.Lessons.Lesson_17.task_2
 {
     /// <summary>
-    /// Логика взаимодействия для MyRobotWindow.xaml
+    /// Логика взаимодействия для Test_Rodot_Window_2.xaml
     /// </summary>
-    public partial class MyRobotWindow : Window
+    public partial class Test_Rodot_Window_2 : Window
     {
-        public MyRobotWindow(TestRodot testRodot)
+        public Test_Rodot_Window_2(Test_Rodot_2 test_Rodot_2)
         {
             InitializeComponent();
 
-            vm = new VM(testRodot);
+            vm_2 = new VM_2(test_Rodot_2);
 
-            DataContext = vm;
+            DataContext = vm_2;
         }
 
-       
-
-        private VM vm;
-
-
-
-
+        VM_2 vm_2;
     }
 }

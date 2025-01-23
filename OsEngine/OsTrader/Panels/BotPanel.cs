@@ -1199,7 +1199,7 @@ position => position.State != PositionStateType.OpeningFail
         }
 
         /// <summary>
-        /// the list of options available in the panel
+        /// the list of options available in the panel список опций, доступных на панели
         /// </summary>
         public List<IIStrategyParameter> Parameters
         {
@@ -1209,7 +1209,7 @@ position => position.State != PositionStateType.OpeningFail
         private List<IIStrategyParameter> _parameters = new List<IIStrategyParameter>();
 
         /// <summary>
-        /// parameter has changed settings
+        /// parameter has changed settings  параметр изменил настройки
         /// </summary>
         void Parameter_ValueChange()
         {

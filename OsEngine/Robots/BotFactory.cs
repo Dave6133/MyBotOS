@@ -18,6 +18,7 @@ using OsEngine.OsTrader.Panels.Attributes;
 using OsEngine.Robots.Engines;
 using System.Windows;
 using OsEngine.Robots.MyRobots;
+using OsEngine.Robots.MyRobots.Robot_1;
 
 namespace OsEngine.Robots
 {
@@ -31,6 +32,7 @@ namespace OsEngine.Robots
         public static List<string> GetNamesStrategy()
         {
             List<string> result = new List<string>();
+            result.Add("TestRodot_1");
             result.Add("TestRodot");
             result.Add("Engine");
             result.Add("ScreenerEngine");
@@ -79,6 +81,11 @@ namespace OsEngine.Robots
             {
                 bot = CreateScriptStrategyByName(nameClass, name, startProgram);
                 return bot;
+            }
+
+            if (nameClass == "TestRodot_1")
+            {
+                bot = new TestRodot_1(name, startProgram);
             }
 
             if (nameClass == "TestRodot")

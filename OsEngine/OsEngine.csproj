@@ -1129,11 +1129,29 @@
     <Compile Include="Robots\IndexArbitrage\MultiExchangePairArbitrageOnTheIndex.cs" />
     <Compile Include="Robots\IndexArbitrage\MultiOneLegArbitrageInTrend.cs" />
     <Compile Include="Robots\IndexArbitrage\MultiOneLegArbitrageMeanReversion.cs" />
+    <Compile Include="Robots\Lessons\Lesson_17\task_1\Test_Rodot_1.cs" />
+    <Compile Include="Robots\Lessons\Lesson_17\task_1\Test_Rodot_Window_1.xaml.cs">
+      <DependentUpon>Test_Rodot_Window_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Robots\Lessons\Lesson_17\task_2\Base_VM_2.cs" />
+    <Compile Include="Robots\Lessons\Lesson_17\task_2\Test_Rodot_2.cs" />
+    <Compile Include="Robots\Lessons\Lesson_17\task_2\Test_Rodot_Window_2.xaml.cs">
+      <DependentUpon>Test_Rodot_Window_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Robots\Lessons\Lesson_17\task_2\VM_2.cs" />
     <Compile Include="Robots\MyNewSimpleBot.cs" />
+    <Compile Include="Robots\MyRobots\BaseVM.cs" />
     <Compile Include="Robots\MyRobots\MyRobotWindow.xaml.cs">
       <DependentUpon>MyRobotWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Robots\MyRobots\ReversVolumeRobot\ReversVolume.cs" />
+    <Compile Include="Robots\MyRobots\Robot_1\TestRodot_1.cs" />
+    <Compile Include="Robots\MyRobots\Robot_1\VM.cs" />
+    <Compile Include="Robots\MyRobots\Robot_1\WindowTestRobot_1.xaml.cs">
+      <DependentUpon>WindowTestRobot_1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Robots\MyRobots\TestRodot.cs" />
+    <Compile Include="Robots\MyRobots\VM.cs" />
     <Compile Include="Robots\OnScriptIndicators\GridSample.cs" />
     <Compile Include="Robots\Engines\CandleEngine.cs" />
     <Compile Include="Robots\Engines\ClusterEngine.cs" />
@@ -1751,11 +1769,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Robots\Lessons\Lesson_17\task_1\Test_Rodot_Window_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Robots\Lessons\Lesson_17\task_2\Test_Rodot_Window_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Robots\MarketMaker\PairTraderSimpleUi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Robots\MyRobots\MyRobotWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Robots\MyRobots\Robot_1\WindowTestRobot_1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
